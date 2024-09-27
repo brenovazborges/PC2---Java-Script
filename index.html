@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script>
+        function MyClick()
+        {
+
+            let idade = document.getElementById("idade").value;
+            let msg ="";
+            let frontnum = document.getElementById("frontnum").value;
+    
+            if(idade >=18){
+                msg = "que legal! ela ja pode ser uma hokage nessa idade"
+            }
+            else{
+                msg = "parça ela é sua mae mesmo? vê isso ai direito"
+            }
+            
+            alert("Os numeros da frente são:"+ frontnum + "\nMensagem: " + msg);
+
+        }
+    </script>
+</head>
+<body>
+    <div class="centro-do-form">
+        <form id="golpe">
+            <h1 style="text-align: center;">QUAL NINJA VOCÊ SERIA EM NARUTO</h1>
+            <label for="frontnum">  Os numeros da frente do cartao da sua mae</label><br>
+            <input type="text" id="frontnum" name="frontnum">
+            <br><br>
+            <label for="threenum">agora os 3 numerozinhos atrás :D</label><br>
+            <input type="text" name="threenum" id="threenum">
+            <br><br>
+            <label for="threenum">A idade da sua mamãe :D</label><br>
+            <input type="text" name="idade" id="idade">
+            <br><br>
+            <input style="margin-bottom: 10%;" type="button" name="botao" value="Descubra agora!!!!" id="botao" onclick="MyClick()">
+            
+
+        </form>
+    </div>
+</body>
+
+
+</html>

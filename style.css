@@ -1,0 +1,28 @@
+#golpe{
+    color: white;
+    border: solid black;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 4px orange ;
+    background-image: url(../img/formbg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.centro-do-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
+  }
+  
+  body{
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
