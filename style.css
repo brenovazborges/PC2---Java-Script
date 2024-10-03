@@ -1,6 +1,6 @@
 #golpe{
     color: white;
-    border: solid black;
+    border: solid white;
     padding: 10px;
     width: fit-content;
     border-radius: 10px;
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh; 
+    text-align: center;
   }
   
   body{
@@ -25,4 +25,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
+}
+
+.fotodocharuto{
+  float: left;
+  width:250px;
 }

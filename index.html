@@ -8,24 +8,21 @@
     <script>
         function MyClick()
         {
-
             let idade = document.getElementById("idade").value;
             let msg ="";
             let frontnum = document.getElementById("frontnum").value;
-    
             if(idade >=18){
                 msg = "que legal! ela ja pode ser uma hokage nessa idade"
             }
             else{
                 msg = "parça ela é sua mae mesmo? vê isso ai direito"
             }
-            
             alert("Os numeros da frente são:"+ frontnum + "\nMensagem: " + msg);
-
         }
     </script>
 </head>
 <body>
+        
     <div class="centro-do-form">
         <form id="golpe">
             <h1 style="text-align: center;">QUAL NINJA VOCÊ SERIA EM NARUTO</h1>
@@ -38,11 +35,19 @@
             <label for="threenum">A idade da sua mamãe :D</label><br>
             <input type="text" name="idade" id="idade">
             <br><br>
-            <input style="margin-bottom: 10%;" type="button" name="botao" value="Descubra agora!!!!" id="botao" onclick="MyClick()">
             
-
+            <input type="radio" id="sim" name="simounao" value="sim">
+            <label for="sim">sim </label><br>
+            <input type="radio" id="nope" name="simounao" value="não">
+            <label for="nao">nao :D</label><br>
+            <br><br>
+            <input style="margin-bottom: 10%;" type="button" name="botao" value="Descubra agora!!!!" id="botao" onclick="MyClick()">
         </form>
+        <img class="fotodocharuto" src="img/pngwing.com.png" alt="naruto orgulhoso">
     </div>
+
+
+
 </body>
 
 
